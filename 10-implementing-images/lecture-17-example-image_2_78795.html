@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Image</title>
+	<style type="text/css">
+		img{
+			width: 100px;
+			height: 100px;
+			margin: 20px;
+		}
+		.img-thumbnail{
+			/*To make the image as a thumbnail*/
+			border: 2px solid red;
+			border-radius: 5px;
+			padding: 5px;
+		}
+
+		.img-transparent{
+			/*To make the image transparent*/
+			border: 2px solid red;
+			border-radius: 5px;
+			padding: 5px;
+			opacity: 0.5;
+		}
+
+		.img-rounded-value{
+			/*To make the image round*/
+			border-radius: 40px;
+		}
+		.img-rounded-percentage{
+			/*To make the image round*/
+			border-radius: 50%;
+		}
+
+		#img-responsive{
+			max-width: 100px!important;
+			height: auto!important;
+		}
+
+		.img-center{
+			margin: 0 auto;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+
+	<img class="img-thumbnail" src="images/cartoon.jpg">
+
+	<img class="img-transparent" src="images/cartoon.jpg">
+
+	<img class="img-rounded-value" src="images/cartoon.jpg">
+
+	<img class="img-rounded-percentage" src="images/cartoon.jpg">
+
+	<img id="img-responsive" src="images/cartoon.jpg">
+
+	<img class="img-center" src="images/cartoon.jpg">
+
+</body>
+</html>

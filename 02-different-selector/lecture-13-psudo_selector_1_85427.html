@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Psudo Selector</title>
+	<style type="text/css">
+		.background-lightgreen{
+			background-color: lightgreen;
+			padding: 10px;
+			text-align: center;
+		}
+
+		.background-lightgreen:hover{
+			background-color: cyan;
+			color: white;
+		}
+		.background-anchor{
+			background-color: white;
+			text-align: center;
+		}
+		.background-anchor a:active{
+			color: green;
+		}
+		.background-anchor a:visited{
+			color: yellow;
+		}
+
+		p:lang(fr){
+			color: blue;
+		}
+
+		input:focus{
+			border: 10px solid;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="background-lightgreen">
+		<p>This is a Div tag.</p>
+	</div>
+
+	<div class="background-anchor">
+		<a href="https://www.learnvern.com/" target="_blank"> This is a link </a>
+	</div>
+
+	<p>This P tag is without Lang Attribute</p>
+
+	<p lang="fr">This P tag is with Lang Attribute</p>
+
+	<input type="text" name="firstName" placeholder="First Name">
+
+</body>
+</html>

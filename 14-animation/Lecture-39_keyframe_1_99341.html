@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Keyframe</title>
+	<style type="text/css">
+		div{
+			width: 200px;
+			height: 200px;
+			border-radius: 40px;
+			animation: demo 5s infinite, trans 5s infinite;
+			/*-webkit-animation: demo 5s infinite, trans 5s infinite;*/
+		}
+		@keyframes demo{
+			0% { background-color: red; }
+			50% { background-color: yellow; width: 100px; height: 100px; }
+			100% { background-color: green; width: 300px; height: 300px; }
+		}
+		@keyframes trans{
+			0% { transform: translate(0px) scale(1.4) rotate(80deg); }
+			50% { transform: translate(250px) scale(1.2) rotate(40deg); }
+			100% { transform: translate(350px) scale(1); rotate(0deg); }
+		}
+	</style>
+</head>
+<body>
+
+	<div></div>
+
+	<p>Above rectangle will be animated.</p>
+
+</body>
+</html>

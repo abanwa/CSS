@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Animation 1</title>
+	<style type="text/css">
+		body{
+			text-align: center;
+		}
+		div{
+			margin: 0 auto;
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			animation: myFirst 5s;
+			-webkit-animation: myFirst 5s;
+			animation-iteration-count: infinite;
+		}
+
+		@-webkit-keyframes myFirst{
+			from{background-color: red;}
+			to{background-color: black;}
+		}
+
+		@keyframes myFirst{
+			from{background-color: red;}
+			to{background-color: black;}
+		}
+	</style>
+</head>
+<body>
+
+	<h3>The retangle will continously change the color</h3>
+
+	<div></div>
+
+</body>
+</html>

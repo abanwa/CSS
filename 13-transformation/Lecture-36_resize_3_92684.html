@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Resize</title>
+	<style type="text/css">
+		div{
+			border: 2px solid black;
+			padding: 20px;
+			font-size: 20px;
+			background-color: lightgreen;
+			width: 300px;
+		}
+		.resize-horizontal{
+			resize: horizontal;
+			overflow: auto;
+		}
+		.resize-vertical{
+			resize: vertical;
+			overflow: auto;
+			margin-bottom: 500px;
+		}
+		.resize-both{
+			resize: both;
+			overflow: auto;
+			margin-bottom: 500px;
+		}
+	</style>
+</head>
+<body>
+
+	<h3>Example of Horizontal Resize</h3>
+	<div class="resize-horizontal">
+		<p>This is the div</p>
+		<p>To check the resizable property, click and drag the rightmost bottom icon</p>
+	</div>
+
+	<br><br>
+
+	<h3>Example of Vertical Resize</h3>
+	<div class="resize-vertical">
+		<p>This is the div</p>
+		<p>To check the resizable property, click and drag the rightmost bottom icon</p>
+	</div>
+
+	<h3>Example of Resize in both the directions</h3>
+	<div class="resize-both">
+		<p>This is the div</p>
+		<p>To check the resizable property, click and drag the rightmost bottom icon</p>
+	</div>
+
+</body>
+</html>

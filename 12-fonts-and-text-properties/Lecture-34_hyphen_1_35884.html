@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Hyphen</title>
+	<style type="text/css">
+		h3{
+			text-align: center;
+		}
+		div{
+			background-color: lightgreen;
+			width: 100px;
+			border: 1px solid black;
+		}
+		.hyphen-none{
+			hyphens: none;
+		}
+		.hyphen-manual{
+			hyphens: manual;
+		}
+		.hyphen-auto{
+			hyphens: auto;
+		}
+	</style>
+</head>
+<body>
+
+	<h3>Example hyphen with hyphens:none value</h3>
+
+	<div class="hyphen-none">
+		in this div there is a loooooooooooooooooooooooooooong word.
+	</div>
+
+	<h3>Example hyphen with hyphens:manual value</h3>
+
+	<div class="hyphen-manual">
+		in this div there&shy;there is a looooo&shy;ooooooooo&shy;oooooooo&shy;oooooong word.
+	</div>
+
+	<h3>Example hyphen with hyphens:auto value</h3>
+
+	<div class="hyphen-auto">
+		in this div there&shy;there is a looooo&shy;ooooooooo&shy;oooooooo&shy;oooooong word.
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example of Filters</title>
+	<style type="text/css">
+		.main-image{
+			text-align: center;
+		}
+		.filter-effects div{
+			display: inline-block;
+			text-align: center;
+			max-width: 200px;
+			margin: 20px 30px;
+		}
+		.filter-effects h5{
+			font-size: 10px
+		}
+		.img-brightness{
+			width: 200px;
+		}
+		.img-brightness img{
+			filter: brightness(500%);
+		}
+		.img-blur img{
+			filter: blur(3px);
+		}
+		.img-invert img{
+			filter: invert(1%);
+		}
+		.img-saturation img{
+			filter: saturate(5);
+		}
+		.img-drop-shadow img{
+			filter: drop-shadow(10px 10px 10px #adadad);
+		}
+		.img-contrast img{
+			filter: contrast(50%);
+		}
+		.img-opacity img{
+			filter: opacity(30%);
+		}
+		.img-opacity-without-filter img{
+			opacity: 0.5;
+		}
+		.img-hue img{
+			filter: hue-rotate(100deg);
+		}
+		.img-grayscale img{
+			filter: grayscale(100%);
+		}
+		.img-sepia img{
+			filter: sepia(100%);
+		}
+	</style>
+</head>
+<body>
+
+	<div class="main-image">
+		<h5>Main Image</h5>
+		<img src="images/image.jpg" width="100">	
+	</div>
+	<div class="filter-effects">
+		<div class="img-brightness">
+			<h5>Image with Brightness Filter</h5>
+			<img src="images/image.jpg" width="100">	
+		</div>
+
+		<div class="img-blur">
+			<h5>Image with Blur Filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-invert">
+			<h5>Image with Invert Filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-saturation">
+			<h5>Image with saturation Filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-drop-shadow">
+			<h5>Image with Drop-shadow Filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-contrast">
+			<h5>Image with Contrast Filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-opacity">
+			<h5>Image with Opacity Filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-opacity-without-filter">
+			<h5>Image with Opacity Filter without filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-hue">
+			<h5>Image with hue-rotate filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-grayscale">
+			<h5>Image with Gray Scale filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+
+		<div class="img-sepia">
+			<h5>Image with Sepia filter</h5>
+			<img src="images/image.jpg" width="100">
+		</div>
+	</div>
+	
+
+</body>
+</html>

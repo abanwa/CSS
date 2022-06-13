@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example of !important</title>
+	<style type="text/css">
+		
+		/*!important property only once*/
+		.class-important h1{
+			color: red!important;
+		}
+		.class-important h1{
+			color: green;
+		}
+
+		/*!important property multiple times*/
+		.class-important h3{
+			color: orange!important;
+		}
+
+		.class-important h3{
+			color: blue!important;
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="class-important">
+		<h1>This is a heading</h1>
+
+		<h3 style="color: red!important">This is Heading 3</h3>
+	</div>
+
+</body>
+</html>

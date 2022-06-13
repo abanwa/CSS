@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Display Property</title>
+	<style type="text/css">
+		
+		/*h3{
+			background-color: red;
+		}
+
+		span{
+			background-color: lightgreen
+		}
+		a{
+			background-color: cyan
+		}*/
+
+		h3{
+			text-align: center;
+		}
+
+		ul{
+			list-style-type: none;
+		}
+		#display-inline li{
+			display: inline;
+		}
+
+		#display-inline-block li{
+			display: inline-block;
+		}
+
+		#display-block span{
+			display: block;
+		}
+
+		.display-flex{
+			display: flex;
+		}
+		.display-flex div{
+			padding: 10px;
+			background-color: white;
+			border: 10px solid lightgreen;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+
+	<!-- Explaining Display property -->
+
+	<!-- <h3>This is a Heading Tag</h3>
+
+	<br>
+
+	<span>This is a Span</span>
+
+	<a href="">This is a Link</a> -->
+
+	<h3>Week Days (using display:inline Property)</h3>
+
+	<!-- Example display:inline Property -->
+	<ul id="display-inline">
+		<li>Sunday</li>
+		<li>Monday</li>
+		<li>Tuesday</li>
+		<li>Wednesday</li>
+		<li>Thursday</li>
+		<li>Friday</li>
+		<li>Saturday</li>
+	</ul>
+
+	<!-- Example display:inline-block Property -->
+	<h3>Week Days (using display:inline-block Property)</h3>
+	<ul id="display-inline-block">
+		<li>Sunday</li>
+		<li>Monday</li>
+		<li>Tuesday</li>
+		<li>Wednesday</li>
+		<li>Thursday</li>
+		<li>Friday</li>
+		<li>Saturday</li>
+		<li>Sunday</li>
+		<li>Monday</li>
+		<li>Tuesday</li>
+		<li>Wednesday</li>
+		<li>Thursday</li>
+		<li>Friday</li>
+		<li>Saturday</li>
+	</ul>
+
+	<!-- Example display:block Property -->
+	<h3>Week Days (using display:block Property)</h3>
+	<div id="display-block">
+		<span>Sunday</span>
+		<span>Monday</span>
+		<span>Tuesday</span>
+		<span>Wednesday</span>
+		<span>Thursday</span>
+		<span>Friday</span>
+		<span>Saturday</span>
+	</div>
+
+	<br>
+	<br>
+
+	<!-- Example display:none Property -->
+	<h3>Hide a div using display:none property</h3>
+	<div>This Div is visible</div>
+	<div style="display: none;">This Div is hidden</div>
+
+	<br>
+	<br>
+
+	<!-- Example display:flex Property -->
+	<h3>Create blocks using display:flex property</h3>
+	<div class="display-flex">
+		<div>1</div>
+		<div>2</div>
+		<div>3</div>	
+	</div>
+	
+</body>
+</html>
